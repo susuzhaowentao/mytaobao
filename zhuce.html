@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/ys.css">
+    <link rel="stylesheet" href="css/shouyexiaoguo.css">
+    <style>
+        .xinxi{
+        width: 100%;
+        height: 500px;
+    }
+    .left{
+        width:50%;
+        height: 100%;
+        float: left;
+
+    }
+ .right{
+        width:50%;
+        height: 100%;
+        float: left;
+    }
+    .form1{
+        width: 450px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .form1 input{
+        margin: 10px auto;
+        display: inline-block;
+    }
+    .form1 h6{
+        margin-left: 130px;
+
+    }
+    .form1 h6 a{
+    text-decoration: underline;
+    font-weight: 500;
+
+    }
+    .form1 label{
+        width: 80px;
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .form1 span{
+        margin-left:30px;
+        background: white; 
+    }
+    .denglu{
+        margin-left: 130px;
+         
+    }
+        .mit{
+            background-color: #000;
+            border:none;
+            color: white;
+            width: 100px;
+            height: 33px;
+
+        }
+        .h61{
+            margin-top: 40px;
+        }
+        .imgright{
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+</style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <div class="shou">
+            <ul>
+                <li id="gwc"><a href="" id="js">0</a></li>
+                <li><a href="" style="color: #404040">&nbsp;&nbsp;欢迎您回来！</a></li>
+                <li><a href="">注册&nbsp;|</a></li>
+                <li><a href="denglu.html">&nbsp;登陆</a></li>
+            </ul>
+        </div>
+        <input type="text" placeholder="&nbsp;&nbsp;输入关键字" id="sousuo"><i class="iconfont icon-sosuo"></i>
+        <!-- logo -->
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.gif" alt=""></a>
+        </div>
+        <!-- 选项 -->
+        <div class="xuanxiangka">
+            <ul>
+                <li><a href="" id="a1">Home</a></li>
+                <li id="xianshi1"><a href="">上装</a>
+                    <div class="xiala  xiala_1">
+                        <div class="jiantou"></div>
+                        <div class="kuang">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>短袖T恤</li>
+                                <li>长袖T恤</li>
+                                <li>卫衣&帽衫</li>
+                                <li>背心</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">下装</a></li>
+                <li><a href="">帽子</a></li>
+                <li id="xianshi2"><a href="">银饰</a>
+                    <div class="xiala xiala_2">
+                        <div class="jiantou" style="margin-left: 176px;"></div>
+                        <div class="kuang" style="margin-left: 110px;">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>戒指</li>
+                                <li>项链&吊坠</li>
+                                <li>手链&手镯</li>
+                                <li>耳环&耳钉</li>
+                                <li>钥匙扣&挂扣</li>
+                                <li>头绳&胸针</li>
+                                <li>皮带扣&打火机</li>
+                                <li>摆件&其他</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">箱包</a></li>
+                <li id="xianshi3"><a href="">其他</a>
+                    <div class="xiala xiala_3">
+                        <div class="jiantou" style="margin-left: 88px;"></div>
+                        <div class="kuang" style="margin-left: 25px;">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>包装</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">特价热卖</a></li>
+            </ul>
+        </div>
+        <div class="xinxi">
+            <div class="left">
+                <h2 style="margin-top: 20px;font-weight: 500;margin-left: 10px;">注册新会员</h2>
+                <p style="font-size: 12px;margin-left: 10px;">一旦你创建的ChromeHeartsOnlinebu.COM一个帐户，你可以个性化你的地址簿，并轻松添加收藏夹到你的收藏夹！你还在等什么呢？</p>
+                <!--    左侧from表单 -->
+                <form class="form1" action="php/ajaxlianxi.php" method="post">
+                    <label>用户名</label><input type="text" name="username" id="username" required> <span id="usernameMessage" style="margin-left: 0" ></span><br>
+                    <label>email</label><input type="email" id="inp2" name="email" required><span></span><br>
+                    <label>密码</label><input type="password" id="userpass" name="userpass" required><span></span><br>
+                    <label>密码强度</label>
+                    <span id="weak">弱&nbsp;</span>
+                    <span id="normal">中&nbsp;</span>
+                    <span id="strong">强</span><br />
+                    <label>确认密码</label><input type="password" name="password" id="btn" required><span id="dud"></span><br>
+                    <label>手机</label><input type="text" id="inp4" name="phone" required><span></span><br>
+                    <label for=""></label><input type="checkbox" required>我已看过并接受《<a href="" style="color: blue">用户协议</a>》<br>
+                    <a src="index.php" class="denglu"><input type="submit" value="会员注册" class="mit"></a>
+                    <h6 class="h61"><img src="img/rightxin.jpg" alt="">&nbsp;&nbsp;<a href="denglu.html">我已有账号了，我要登录</a>
+            </h6><h6><img src="img/rightxin.jpg" alt="">&nbsp;&nbsp;<a href="">您忘记密码了吗</a></h6>
+                </form>
+            </div>
+            <!-- 右侧img -->
+            <div class="right"><img src="img/ureg.jpg" alt="" class="imgright"></div>
+            </div>
+            <!-- 底部 -->
+            <div class="footer">
+                <ul class="ull1">
+                    <li style="color: white"><b>账户</b></li>
+                    <li>注册</li>
+                    <li>购物车</li>
+                    <li>联系我们</li>
+                    <li>我的订单</li>
+                </ul>
+                <ul class="ull2">
+                    <li style="color: white"><b>顾客服务</b></li>
+                    <li>运费</li>
+                    <li>一般信息</li>
+                    <li>品牌介绍</li>
+                </ul>
+                <ul class="ull3">
+                    <li style="color: white"><b>E-mail邮件订阅</b></li>
+                    <li><input type="text" placeholder="Email获取最新信息" class="sss1"></li>
+                    <li class="youjian">邮件订阅</li>
+                </ul>
+                <div class="ull4"><a href="">CHROME HEARTS、CHROME HEARTS标志和图案的全部设计均为CHROME HEARTS的公司注册商标。</a></div>
+            </div>
+        </div>
+        <div class="rightimg">
+            <ul class="anniu">
+                <li class="lli1"><img src="img/weixin1.jpg" alt="" class="a a1_1">
+                    <img src="img/weixin.jpg" alt="" class="b a1_2">
+</li>
+                <li class="lli2">
+                    <img src="img/shouji1.jpg" alt="" class="a b2_1">
+                    <img src="img/shouji.jpg" alt="" class="b b2_2">
+                    <img src="img/zhaowentao.jpg" alt="" class="saoma">
+</li>
+                <li class="lli3">
+                    <img src="img/xiangshang1.jpg" alt="" class="a c3_1">
+                    <img src="img/xiangshang.jpg" alt="" class="b c3_2">
+</li>
+            </ul>
+        </div>
+</body>
+
+</html>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<!-- <script src="js/shouyexiaoguo.js"></script> -->
+<script>
+// 回到顶部
+$(".lli3").click(function() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+})
+</script>
+<script>
+// 检测是否注册过
+function z(srt) {
+    if (srt.charAt(0) == "#") {
+        return document.getElementById(srt.substring(1));
+    } else if (srt.charAt(0) == ".") {
+        return document.getElementsByClassName(srt.substring(1));
+    } else {
+        return document.getElementsByTagName(srt);
+    }
+}
+
+z("#username").onblur = function() {
+    if (z("#username").value != "" && z("#username").value != "请输入用户名") {
+        let xhr = new XMLHttpRequest();
+
+        //2、设置请求参数
+        xhr.open("get", "php/ajax02.php?username=" + this.value, true);
+
+        //3、设置回调函数
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                //5、接收响应
+                let str = xhr.responseText;
+                if (str == "0") {
+                    z("#usernameMessage").innerHTML = "该用户可以使用";
+                    z("#usernameMessage").style.color = "green";
+                } else {
+                    z("#usernameMessage").innerHTML = "该用户已被注册";
+                    z("#usernameMessage").style.color = "red";
+                    
+                }
+
+            }
+        }
+
+        //4、发送请求
+        xhr.send();
+    } else {
+        z("#username").value = "请输入用户名"
+        z("#username").style.color = "red";
+    }
+}
+
+//密码强度
+
+window.onload = function() {
+    z("#userpass").onkeyup = function() {
+        console.log(1213213);
+        var pass = this.value;
+        if (pass.length >= 6 && pass.length <= 16) {
+            var hasNum = false;
+            var regNum = /\d/;
+            if (regNum.test(pass)) {
+                hasNum = true;
+            }
+            var hasletter = false;
+            var regletter = /[a-zA-Z]/
+            if (regletter.test(pass)) {
+                hasletter = true;
+            }
+            var hasspecial = false;
+            var regspecial = /[@#ww%&*]/;
+            if (regspecial.test(pass)) {
+                hasspecial = true;
+            }
+
+            let level = hasNum + hasletter + hasspecial;
+            if (level == 1) {
+                z("#weak").style.backgroundColor = "red";
+                z("#normal").style.backgroundColor = "#ccc";
+                z("#strong").style.backgroundColor = "#ccc";
+            } else if (level == 2) {
+                z("#weak").style.backgroundColor = "#ccc";
+                z("#normal").style.backgroundColor = "yellow";
+                z("#strong").style.backgroundColor = "#ccc";
+            } else if (level == 3) {
+                z("#weak").style.backgroundColor = "#ccc";
+                z("#normal").style.backgroundColor = "#ccc";
+                z("#strong").style.backgroundColor = "green";
+            }
+
+        }
+    }
+}
+z("#btn").onblur = function() {
+    var a = z("#userpass").value;
+    var b = z("#btn").value;
+    if (a === b) {
+        z("#dud").innerHTML = "密码一致";
+        z("#dud").style.color = "green";
+    } else {
+        z("#dud").innerHTML = "密码不一致";
+        z("#dud").style.color = "red";
+    }
+}
+</script>
+<!-- <script>
+    ajax注册
+    ww(function(){
+        ww(".mit").click(function(){
+            alert("1")
+            let username = ww("#username").val();
+            let email = ww("#inp2").val();
+            let userpass = ww("#userpass").val();
+            let password = ww("#btn").val();
+            let phone = ww("#inp4").val();
+            let objVal = {
+                username:username,
+                email:email,
+                userpass:userpass,
+                password:password,
+                phone:phone         
+            }
+            console.log(objVal);
+            ww.ajax({
+                type:"post",
+                url:"php/ajaxlianxi.php",
+                async:true,
+                data:objVal,
+                success:function(data){
+                    if(data==1){
+                        console.log("成功");
+                    }
+                    else{
+                        console.log("失败")
+                    }
+                }
+ 
+            })
+        })
+    })
+</script> -->

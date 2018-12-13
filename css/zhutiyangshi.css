@@ -1,0 +1,93 @@
+
+/*轮播图*/
+
+.lunbo {
+    height: 392px;
+    width: 100%;
+
+    margin-top: 8px;
+}
+
+.slideBox .hd {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    right: 230px;
+    top: 605px;
+    z-index: 1;
+}
+
+.slideBox .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.slideBox .hd ul li {
+    float: left;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+
+.slideBox .hd ul li.on {
+    background: #f00;
+    color: #fff;
+}
+
+.hr1 {
+    height: 88px;
+    margin-top: 70px;
+    border-top: 1px solid gray;
+
+}
+
+.hr1 h2 {
+    font-weight: 500;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+.lib {
+    height: 330px;
+
+}
+
+.lib2_1 {
+    width: 237.5px;
+    height: 330px;
+    float: left;
+}
+
+.imgtu {
+    height: 240px;
+}
+
+.imgjianjie {
+    height: 90px;
+    margin-top: 10px;
+}
+
+.imgjianjie ul li {
+    font-size: 14px;
+    text-align: center;
+}
+
+.imgjianjie ul li:nth-child(2) {
+    margin-top: 10px;
+
+}
+
+.imgjianjie ul li:nth-child(3) {
+    margin-top: 10px;
+
+}
+
+.liba2 {
+    margin-top: 80px;
+}

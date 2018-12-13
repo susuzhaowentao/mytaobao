@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/ys.css">
+    <link rel="stylesheet" href="css/shouyexiaoguo.css">
+    <style>
+        .h3_1{
+		width: 150px;
+		height: 30px;
+		background: black;
+		color: white;
+		margin-top: 10px;
+		text-align: center;
+		font-weight: 500;
+		line-height: 30px;
+	}
+	.boxone{
+		margin-top: 10px;
+		height: 230px;
+		background: #ececec;
+		width: 100%;
+
+	}
+	.boxone li{
+		margin-left: 10px;
+		margin-top: 10px;
+		font-size: 12px;
+	}  
+	.btn input{
+		width: 130px;
+		height: 30px;
+		background: black;
+		color: white;
+		margin-top: -10px;
+		margin-left: 750px;
+		text-align: center;
+		font-weight: 500;
+		line-height: 30px;
+		border: none;
+		background:#000;}
+		.boxtwo{
+		margin-top: 10px;
+		height:144px;
+		background: #ececec;
+		width: 100%;
+
+	}
+	.boxtwo li{
+		margin-left: 10px;
+		margin-top: 10px;
+		font-size: 12px;
+	}  
+	
+</style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <div class="shou">
+              <ul>
+                <li id="gwc"><a href="" id="js">0</a></li>
+                <li><a href="" style="color: #404040">&nbsp;&nbsp;欢迎您回来！</a></li>
+                <li><a href="zhuce.html">注册&nbsp;|</a></li>
+                <li><a href="">&nbsp;登陆</a></li>
+            </ul>
+        </div>
+        <input type="text" placeholder="&nbsp;&nbsp;输入关键字" id="sousuo"><i class="iconfont icon-sosuo"></i>
+        <!-- logo -->
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.gif" alt=""></a>
+        </div>
+        <!-- 选项 -->
+        <div class="xuanxiangka">
+            <ul>
+                <li><a href="" id="a1">Home</a></li>
+                <li id="xianshi1"><a href="">上装</a>
+                    <div class="xiala  xiala_1">
+                        <div class="jiantou"></div>
+                        <div class="kuang">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>短袖T恤</li>
+                                <li>长袖T恤</li>
+                                <li>卫衣&帽衫</li>
+                                <li>背心</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">下装</a></li>
+                <li><a href="">帽子</a></li>
+                <li id="xianshi2"><a href="">银饰</a>
+                    <div class="xiala xiala_2">
+                        <div class="jiantou" style="margin-left: 176px;"></div>
+                        <div class="kuang" style="margin-left: 110px;">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>戒指</li>
+                                <li>项链&吊坠</li>
+                                <li>手链&手镯</li>
+                                <li>耳环&耳钉</li>
+                                <li>钥匙扣&挂扣</li>
+                                <li>头绳&胸针</li>
+                                <li>皮带扣&打火机</li>
+                                <li>摆件&其他</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">箱包</a></li>
+                <li id="xianshi3"><a href="">其他</a>
+                    <div class="xiala xiala_3">
+                        <div class="jiantou" style="margin-left: 88px;"></div>
+                        <div class="kuang" style="margin-left: 25px;">
+                            <ul class="xila_4">
+                                <li></li>
+                                <li>包装</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">特价热卖</a></li>
+            </ul>
+        </div>
+        <h3 class="h3_1"> 现在登录</h3>
+        <div class="boxone">
+            <form action="php/denglu.php" method="post">
+            <ul>
+                <li>&nbsp;</li>
+                <li><b> 用户注册</b></li>
+                <li>如果您已经在Chrome Hearts Onlinebuy注册，然后登录这里。</li>
+                <li>请注意：如果你不是注册用户，需要在下面进行注册。</li>
+                <li>用户* <input type="text" style="width: 250px;margin-left: 40px;" id="username" name="username"  required></li>
+                <li>密码* <input type="password" style="width: 250px;margin-left: 40px;" id="userpass" name="userpass"  required></li>
+                <li><input type="checkbox" style="width: 16px;height: 16px;" id="check">请保存我这次的登录信息</li>
+                <li class="btn"><input type="submit" value="会员登录" id="btn"></li>
+            </ul>
+        </form>
+        </div>
+        <div class="boxtwo">
+            <li>&nbsp;</li>
+            <li><b> 新顾客,欢迎您的註册与登入。</b></li>
+            <li>请注册并登入成为本站会员，除了购物能更方便，</li>
+            <li>同时才能享受到我们的会员价格以及特别的会员服务哦！</li>
+            <li class="btn"><a href="zhuce.html"><input type="submit" value="会员注册" style="width: 100px;"></a></li>
+        </div>
+        <div class="boxtwo">
+            <li>&nbsp;</li>
+            <li><b>新顾客,忘记密码。</b></li>
+            <li>请注册并登入成为本站会员，除了购物能更方便，</li>
+            <li>同时才能享受到我们的会员价格以及特别的会员服务哦！</li>
+            <li class="btn">   <a href="zhuce.html"><input type="submit" value="会员注册" style="width: 100px;"></a></li>
+        </div>
+        <!-- !-- 底部 -->
+        <div class="footer">
+            <ul class="ull1">
+                <li style="color: white"><b>账户</b></li>
+                <li>注册</li>
+                <li>购物车</li>
+                <li>联系我们</li>
+                <li>我的订单</li>
+            </ul>
+            <ul class="ull2">
+                <li style="color: white"><b>顾客服务</b></li>
+                <li>运费</li>
+                <li>一般信息</li>
+                <li>品牌介绍</li>
+            </ul>
+            <ul class="ull3">
+                <li style="color: white"><b>E-mail邮件订阅</b></li>
+                <li><input type="text" placeholder="Email获取最新信息" class="sss1"></li>
+                <li class="youjian">邮件订阅</li>
+            </ul>
+            <div class="ull4"><a href="">CHROME HEARTS、CHROME HEARTS标志和图案的全部设计均为CHROME HEARTS的公司注册商标。</a></div>
+        </div>
+    </div>
+    <div class="rightimg">
+        <ul class="anniu">
+            <li class="lli1"><img src="img/weixin1.jpg" alt="" class="a a1_1">
+                <img src="img/weixin.jpg" alt="" class="b a1_2">
+</li>
+            <li class="lli2">
+                <img src="img/shouji1.jpg" alt="" class="a b2_1">
+                <img src="img/shouji.jpg" alt="" class="b b2_2">
+                <img src="img/zhaowentao.jpg" alt="" class="saoma">
+</li>
+            <li class="lli3">
+                <img src="img/xiangshang1.jpg" alt="" class="a c3_1">
+                <img src="img/xiangshang.jpg" alt="" class="b c3_2">
+</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/cookieTools.js"></script>
+<script>
+    $(".lli3").click(function() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+})
+</script>
+<script>
+        function $(srt) {
+    if (srt.charAt(0) == "#") {
+        return document.getElementById(srt.substring(1));
+    } else if (srt.charAt(0) == ".") {
+        return document.getElementsByClassName(srt.substring(1));
+    } else {
+        return document.getElementsByTagName(srt);
+    }
+}
+    $("#btn").onclick=function(){
+        if($("#check").checked){
+        addCookie("username",$("#username").value,7) 
+           addCookie("userpass",$("#userpass").value,7) 
+            } 
+}
+
+
+
+</script>
+<!-- <script>
+
+    $(function(){
+        $("#btn").click(function(){
+            alert("1")
+            let username = $("#username").val();
+           
+            let userpass = $("#userpass").val();
+         
+          
+            let objVal = {
+                username:username,
+               
+                userpass:userpass,     
+            }
+            console.log(objVal);
+            $.ajax({
+                type:"post",
+                url:"php/denglu.php",
+                async:true,
+                data:objVal,
+                success:function(data){
+                    if(data==1){
+                        console.log("成功");
+                    }
+                    else{
+                        console.log("失败")
+                    }
+                }
+
+            })
+        })
+    })
+</script> -->

@@ -1,0 +1,28 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+input{
+	outline: none;
+}
+/*img{
+	display: block;
+}*/
+body{
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+}
+a{
+		color: #000;
+	}
+img{
+	border:none;
+}
+ input,button{
+ 	outline: none;
+ }

@@ -1,0 +1,108 @@
+.footer {
+    height: 228px;
+    background: black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.footer ul {
+    float: left;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.footer ul li {
+    color: #c3bebe;
+    margin-top: 12px;
+}
+
+.ull1 {
+    margin-left: 20px;
+}
+
+.ull2 {
+    margin-left: 55px;
+}
+
+.ull3 {
+    margin-left: 280px;
+}
+
+.ull3 .sss1 {
+    width: 308px;
+}
+
+.ull3 .youjian {
+    width: 308px;
+    text-align: right;
+}
+
+.ull4 {
+    clear: both;
+    height: 20px;
+
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.ull4 a {
+    font-size: 12px;
+    color: #c3bebe;
+}
+
+/*右侧悬浮div点击回首部*/
+.rightimg {
+    width: 50px;
+    height: 158px;
+    background: white;
+
+    position: fixed;
+    top: 430px;
+    left: 1300px;
+
+}
+
+.rightimg ul li {
+    width: 50px;
+    height: 50px;
+    margin-top: 1px;
+    background: black;
+    position: relative;
+}
+
+.rightimg ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.a {
+    z-index: 50;
+    direction: none;
+}
+
+.lli1 {
+    background-image: url(img/weixin1.jpg);
+}
+
+.b {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.lli2 {
+    position: relative;
+}
+
+.lli2 .saoma {
+    position: absolute;
+    right: 50px;
+    top: -130px;
+    width: 160px;
+    height: 180px;
+    border: 1px solid gray;
+    text-shadow: 2px 2px 2px gray;
+    display: none;
+}

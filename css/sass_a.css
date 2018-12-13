@@ -1,0 +1,16 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: yellow; }
+  div p {
+    color: red;
+    width: 200px;
+    height: 50px;
+    background: black; }
+    div p span {
+      color: green;
+      width: 200px;
+      height: 50px;
+      background: pink; }
+
+/*# sourceMappingURL=sass_a.css.map */

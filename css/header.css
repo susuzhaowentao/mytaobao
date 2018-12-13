@@ -1,0 +1,147 @@
+
+.box {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.shou {
+    height: 22px;
+    margin-top: 35px;
+}
+
+.shou ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#gwc {
+    background: url(../img/cartbg.gif) no-repeat;
+    width: 24px;
+    margin-left: 786px;
+}
+
+#js {
+    color: white;
+    width: 24px;
+    display: inline-table;
+    text-align: center;
+}
+
+#sousuo {
+    clear: both;
+    width: 152px;
+    height: 26px;
+    margin-top: 26px;
+    border: 1px solid #ccc;
+    margin-left: 794px;
+}
+
+.icon-sosuo {
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+/*logo*/
+
+.logo {
+    margin-top: -28px;
+    width: 100%;
+    height: 82px;
+    text-align: center;
+}
+
+/*选项卡*/
+.xuanxiangka {
+    height: 30px;
+    margin-top: 18px;
+    background: black;
+
+}
+
+.xuanxiangka ul li a {
+    float: left;
+    color: white;
+    width: 90px;
+    line-height: 30px;
+    font-size: 14px;
+
+}
+
+#a1 {
+    margin-left: 30px;
+
+}
+
+.jiantou {
+    width: 0px;
+    height: 0px;
+    border: 15px solid transparent;
+    border-bottom-color: white;
+    margin-top: -15px;
+    margin-left: 120px;
+
+
+}
+
+.kuang {
+    width: 160px;
+    height: 100%;
+    background: white;
+    margin-left: 52px;
+    box-shadow: 2px 2px 2px gray;
+
+}
+
+.kuang ul li {
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 100px;
+    text-align: center;
+
+}
+
+.kuang ul li:nth-child(1) {
+    margin-top: 0px;
+
+}
+
+.kuang ul li:last-child {
+    margin-bottom: 15px;
+}
+
+.xiala {
+    float: left;
+    display: none;
+
+}
+
+.xiala_1 {
+    position: fixed;
+    left: 200px;
+    top: 210px;
+    z-index: 100;
+}
+
+.xiala_2 {
+    position: fixed;
+    left: 414px;
+    top: 210px;
+    z-index: 100;
+}
+
+.xiala_3 {
+    position: fixed;
+    left: 684px;
+    top: 210px;
+    z-index: 100;
+}
+.xila_4 li{
+	font-size: 14px;
+}
+.xila_4 li:hover{
+	background: black;
+	color: white;
+}

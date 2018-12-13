@@ -1,0 +1,40 @@
+#xianshi1:hover .xiala_1{
+display: block;
+}
+#xianshi2:hover .xiala_2{
+display: block;
+}
+#xianshi3:hover .xiala_3{
+display: block;
+} 
+$(".lli1").mouseover(function() {
+//     $(".a1_1").show()
+//  $(".a1_2").hide()
+// })
+.lli1:hover .a1_1{
+	display: block;
+	
+}
+.lli1:hover .a1_2{
+	display: none;
+	
+}
+.lli2:hover .b2_1 {
+	display: block;
+	
+}
+.lli2:hover .saoma{
+	display: block;
+}
+.lli2:hover .b2_2{
+	display: none;
+	
+}
+.lli3:hover .c3_1{
+	display: block;
+	
+}
+.lli3:hover .c3_2{
+	display: none;
+	
+}
